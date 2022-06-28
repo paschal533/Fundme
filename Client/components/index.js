@@ -1,6 +1,5 @@
 export { default as Navbar } from "./Navbar";
 export { default as Loader } from "./Loader";
-export { default as Steps } from "./Steps";
 export { default as Footer } from "./Footer";
 export { default as Balance } from "./Balance";
 export { default as NFTs } from "./Nfts";
