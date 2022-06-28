@@ -53,7 +53,7 @@ const Fundraiser = () => {
       }
     };
     init();
-  }, [query.address, getFundraiserDetails]);
+  }, [query.address]);
 
   const OverlayOne = () => (
     <ModalOverlay
