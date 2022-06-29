@@ -1,11 +1,11 @@
-import Link from "next/link";
+ import Link from "next/link";
 import { Box, Flex, AspectRatio } from "@chakra-ui/react";
 
 const About = () => {
   return (
     <div className="w-full justify-center text-center">
       <div className="md:px-20 pb-0 pt-10 px-3 ">
-        <div className="flex about">
+        <div className="about">
           <div className="md:w-[250px] w-[100vw] md:mb-0 mb-4">
             <p className="text-[#337EFE] mb-3 text-2xl font-medium">Help</p>
             <h1 className="text-3xl font-bold">
@@ -86,3 +86,4 @@ const About = () => {
 };
 
 export default About;
+
