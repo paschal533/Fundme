@@ -13,7 +13,7 @@ Fundme is decenterized fundraiser application, where users can create a fundrais
 
 ![Screenshot](/assets/Screenshot5.png)
 
-[Screenshot](/assets/Screenshot6.png)
+![Screenshot](/assets/Screenshot6.png)
 
 ![Preview](/assets/auth.gif)
 
