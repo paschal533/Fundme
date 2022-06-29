@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useState } from "react";
+ import React, { useEffect, useContext, useState } from "react";
 import Web3 from "web3";
 import FundraiserContract from "../contracts/Fundraiser.json";
 import {
@@ -88,10 +88,10 @@ const FundraiserCard = ({ fundraiser }) => {
               100
             )}...`}</p>
             <div className="mt-4">
-              <Progress className="rounded-lg" value={1 + perc} />
+              <Progress className="rounded-lg" value={10 + perc} />
               <div className="flex w-full mt-2 justify-between">
                 <p className="font-bold text-1xl">Target: $1000</p>
-                <p className="font-bold text-1xl">{perc}%</p>
+                <p className="font-bold text-1xl">{10 + perc}%</p>
               </div>
             </div>
             <div className="mt-4 flex justify-center">
@@ -118,3 +118,4 @@ const FundraiserCard = ({ fundraiser }) => {
 };
 
 export default FundraiserCard;
+
