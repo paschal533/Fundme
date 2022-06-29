@@ -1,6 +1,6 @@
 # Fundme
 
-Fundme is decenterized fundraiser application, where users can create a fundraisering campaign, Donate to a fundraiser and print the recipt of their donations. Fundme also has other additional features which allows users to send ether to anyone across the world, view the amount of Ether they have in their wallet, view the NFTs they have, and also view their last five transaction counts.
+Fundme is a decentralised fundraiser application, where users can create a fundraising campaign, Donate to a fundraiser and print the receipt of their donations. Fundme also has other additional features that allow users to send ether to anyone across the world, view the amount of Ether they have in their wallet, view the NFTs they have, and view their last five transaction counts.
 
 # Overview and Authentication of Fundme 🔐
 ![Screenshot](/assets/Screenshot1.png)
