@@ -33,7 +33,7 @@ This is my submittion for the Hashnode X Linode Hackathon.
 ![hashnode](/assets/hashnode.webp)
 
 - # Linode 
- Linode is a cloud hosting provider that focuses on providing Linux powered virtual machines to support a wide range of applications. Given its roots, many experts do not see it as a beginner-friendly. [learn more..](https://www.linode.com/)
+ Linode is a cloud hosting provider that focuses on providing Linux powered virtual machines to support a wide range of applications. [learn more..](https://www.linode.com/)
 
 - # Hashnode
 
