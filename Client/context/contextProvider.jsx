@@ -15,7 +15,7 @@ export const ContextProvider = ({ children }) => {
   const { isAuthenticated, account } = useMoralis();
   const web3 = new Web3(
     new Web3.providers.HttpProvider(
-      "https://rinkeby.infura.io/v3/8aa0ba844efe4f3faf0e35ad39808087"
+      `https://rinkeby.infura.io/v3/${process.env.Private_key}`
     )
   );
   const toast = useToast();
@@ -175,7 +175,7 @@ export const ContextProvider = ({ children }) => {
       const fund = fundraiser;
       const web3 = new Web3(
         new Web3.providers.HttpProvider(
-          "https://rinkeby.infura.io/v3/8aa0ba844efe4f3faf0e35ad39808087"
+          `https://rinkeby.infura.io/v3/${process.env.Private_key}`
         )
       );
       const instance = new web3.eth.Contract(FundraiserContract.abi, fund);

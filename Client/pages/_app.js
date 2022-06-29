@@ -26,9 +26,9 @@ function MyApp({ Component, pageProps }) {
         title="Fundme | A Decenterized fund raiser app"
         description="Raiser funds, view your Eth balance, Send Ether to anyone across the world"
         defaultTitle="Fundme | A Decenterized fund raiser app"
-        canonical="https://vault3.live"
+        canonical="https://1fundme.vercel.app/"
         openGraph={{
-          url: "http://localhost300",
+          url: "https://1fundme.vercel.app/",
           title: "Fundme | A Decenterized fund raiser app",
           description:
             "Raiser funds, view your Eth balance, Send Ether to anyone across the world",
@@ -54,8 +54,8 @@ function MyApp({ Component, pageProps }) {
       />
       <ChakraProvider theme={theme}>
         <MoralisProvider
-          appId={"PhHzazleoS4huOotpxjGCiBr54pFCFHKCRiZBe4Z"}
-          serverUrl={"https://jzo6ate4hkqf.usemoralis.com:2053/server"}
+          appId={process.env.AppId}
+          serverUrl={process.env.serverUrl}
         >
           <ContextProvider>
             <Navbar />

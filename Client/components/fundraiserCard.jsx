@@ -16,7 +16,7 @@ const cc = require("cryptocompare");
 const FundraiserCard = ({ fundraiser }) => {
   const web3 = new Web3(
     new Web3.providers.HttpProvider(
-      "https://rinkeby.infura.io/v3/8aa0ba844efe4f3faf0e35ad39808087"
+      `https://rinkeby.infura.io/v3/${process.env.Private_key}`
     )
   );
   const [fundName, setFundname] = useState(null);

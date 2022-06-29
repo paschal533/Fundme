@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from "react";
 import getWeb3 from "../getweb3";
 import FundraiserFactor from "../contracts/FundraiserFactory.json";
 import { useMoralis } from "react-moralis";
-import { client } from "../client";
 import { useId } from "react-id-generator";
 import Head from "next/head";
 import Web3 from "web3";
@@ -98,7 +97,10 @@ const NewFundraiser = () => {
           description: description,
         };
 
-        client.createIfNotExists(doc).then(() => {
+        await fetch('/api/server', {
+          method: 'Post',
+          body: JSON.stringify(doc),
+        }).then(() => {
           handleNewFundraiser();
           setAddress("");
           setFundraiserDescription("");

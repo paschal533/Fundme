@@ -38,7 +38,7 @@ export default function Profile({ user }) {
           />
         </FormControl>
         <Button disabled={isUserUpdating} type="submit" colorScheme="purple">
-          icon Change Usernmae
+          Change Usernmae
         </Button>
       </form>
     </CustomContainer>
