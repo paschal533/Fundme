@@ -1,4 +1,4 @@
- import Link from "next/link";
+import Link from "next/link";
 import { Box, Flex, AspectRatio } from "@chakra-ui/react";
 
 const About = () => {
@@ -86,4 +86,3 @@ const About = () => {
 };
 
 export default About;
-

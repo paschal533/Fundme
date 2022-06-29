@@ -97,8 +97,8 @@ const NewFundraiser = () => {
           description: description,
         };
 
-        await fetch('/api/server', {
-          method: 'Post',
+        await fetch("/api/server", {
+          method: "Post",
           body: JSON.stringify(doc),
         }).then(() => {
           handleNewFundraiser();

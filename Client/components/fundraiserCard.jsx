@@ -1,4 +1,4 @@
- import React, { useEffect, useContext, useState } from "react";
+import React, { useEffect, useContext, useState } from "react";
 import Web3 from "web3";
 import FundraiserContract from "../contracts/Fundraiser.json";
 import {
@@ -117,4 +117,3 @@ const FundraiserCard = ({ fundraiser }) => {
 };
 
 export default FundraiserCard;
-
