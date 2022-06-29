@@ -5,13 +5,13 @@ Fundme is decenterized fundraiser application, where users can create a fundrais
 # Overview and Authentication of Fundme 🔐
 ![Screenshot](/assets/Screenshot1.png)
 
-[Screenshot](/assets/Screenshot2.png)
+![Screenshot](/assets/Screenshot2.png)
 
-[Screenshot](/assets/Screenshot3.png)
+![Screenshot](/assets/Screenshot3.png)
 
-[Screenshot](/assets/Screenshot4.png)
+![Screenshot](/assets/Screenshot4.png)
 
-[Screenshot](/assets/Screenshot5.png)
+![Screenshot](/assets/Screenshot5.png)
 
 [Screenshot](/assets/Screenshot6.png)
 
