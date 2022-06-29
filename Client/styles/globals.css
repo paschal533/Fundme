@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #08173b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #69b4ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0a85ff;
+}
+.gradient-box {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  box-sizing: border-box;
+
+  background: #000;
+  background-clip: padding-box;
+  /* !importanté */
+  border: solid 4px transparent;
+  /* !importanté */
+}
+.gradient-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -5px;
+  /* !importanté */
+  border-radius: inherit;
+  /* !importanté */
+  background: linear-gradient(
+    93.51deg,
+    rgba(49, 151, 254, 0.459) -36.63%,
+    rgba(0, 227, 214, 0.29) 107.92%
+  ) !important;
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .Apps {
+    display: flex !important;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .Apps {
+    display: flex !important;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1177px) {
+  .phone {
+    margin-top: 230px !important;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .Apps {
+    flex-direction: column;
+  }
+}
+
+.input {
+  border: 2px solid #337efe !important;
+}

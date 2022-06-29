@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@sanity/client": "^3.3.2",
+    "cryptocompare": "^1.0.0",
+    "framer-motion": "^6.3.11",
+    "magic-sdk": "^8.1.1",
+    "next": "latest",
+    "next-seo": "^5.4.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-id-generator": "^3.0.2",
+    "react-moralis": "^1.4.0",
+    "react-twitter-embed": "^4.0.4",
+    "web3": "^1.7.3",
+    "web3uikit": "^0.1.157"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.18.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.7.2"
+  }
+}
