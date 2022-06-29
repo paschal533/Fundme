@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -73,10 +73,17 @@ html {
   .Apps {
     display: flex !important;
   }
+  .about{
+    display: flex !important;
+  }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .Apps {
+    display: flex !important;
+  }
+
+  .about {
     display: flex !important;
   }
 }
@@ -90,6 +97,10 @@ html {
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
   .Apps {
+    flex-direction: column;
+  }
+
+  .about{
     flex-direction: column;
   }
 }
