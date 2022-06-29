@@ -55,7 +55,6 @@ const FundraiserCard = ({ fundraiser }) => {
       setOpen(true);
     } catch (error) {
       console.log(error);
-      alert(error);
     }
   };
 
